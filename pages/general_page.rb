@@ -5,7 +5,7 @@ class GeneralPage < SitePrism::Page
     elements :menuSubItems, :xpath, "//ul[@id = 'box-apps-menu']/li//ul/li"
     element :header, :xpath, "//h1"
 
-    # METODS
+    # METHODS
     def clickNextMenuItem (menuItemNumber)
       find(:xpath, "//ul[@id = 'box-apps-menu']/li[#{menuItemNumber}]" ).click
     end
