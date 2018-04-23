@@ -1,5 +1,5 @@
 Given (/^I am not logged in visitor$/) do
-  visit '/'
+  visit '/admin'
 end
 
 When (/^Admin is logged in$/) do

@@ -4,6 +4,8 @@ class GeneralPage < SitePrism::Page
     elements :menuItems, :xpath, "//ul[@id = 'box-apps-menu']/li"
     elements :menuSubItems, :xpath, "//ul[@id = 'box-apps-menu']/li//ul/li"
     element :header, :xpath, "//h1"
+    element :catalog_header, :xpath, "//h1[contains(text(),'Catalog')]"
+    element :add_product_button, :xpath, "//a[contains(text(),'Add New Product')]"
 
     # METHODS
     def clickNextMenuItem (menuItemNumber)

@@ -1,5 +1,5 @@
 Then (/^I see headers for each item and sub-item in side menu$/) do
-  visit '/'
+  visit '/admin'
   @menuItemNumber = 1
       begin
         while @general_page.has_menuItems? do

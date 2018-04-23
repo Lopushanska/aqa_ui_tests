@@ -1,3 +1,4 @@
+@first
 Feature: Menu Items Headers check
 As a Litecart Admin
 I want to be able to login to admin panel http://localhost/litecart/admin
